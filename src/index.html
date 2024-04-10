@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./public/favicon.ico">
+    <title>Creative Web</title>
+</head>
+
+<body>
+    <h1>Creative Web</h1>
+    <div class="container">
+        <canvas id="canvas-scene" class="scene"></canvas>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+<style>
+    body {
+        background-color: black;
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+        color: white;
+        line-height: 1.4em;
+        font-size: 1.5rem;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-block: 1rem;
+    }
+
+    .scene {
+        width: 50%;
+        height: 85vh;
+        border: solid white;
+    }
+</style>
+
+</html>
