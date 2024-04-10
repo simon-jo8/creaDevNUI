@@ -1,2 +1,2 @@
 # workshop-web-creadev
- js template dedicated to responsive creative websites
+js template dedicated to responsive creative websites
