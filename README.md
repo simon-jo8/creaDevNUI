@@ -1,2 +1,4 @@
-# workshop-web-creadev
-js template dedicated to responsive creative websites
+# Crea Dev Project
+Project Based on the boilerplate of Adrien Husson
+
+# A fun experimentation of the API for mobile browser
