@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "host": "vite --host"
   },
   "repository": {
     "type": "git",
@@ -17,13 +18,20 @@
     "threejs",
     "vite"
   ],
-  "author": "Adrien Husson",
+  "author": "Simon Joseph ( based on the work of Adrien Husson )",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hssnadr/workshop-web-creadev/issues"
   },
   "homepage": "https://github.com/hssnadr/workshop-web-creadev#readme",
   "dependencies": {
+    "dat.gui": "^0.7.9",
+    "matter-js": "^0.19.0",
+    "three": "^0.163.0",
     "vite": "^5.2.8"
+  },
+  "devDependencies": {
+    "vite-plugin-mkcert": "^1.17.5",
+    "vite-plugin-terminal": "^1.2.0"
   }
 }
